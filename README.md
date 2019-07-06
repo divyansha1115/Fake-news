@@ -9,12 +9,12 @@ wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-
 unzip uncased_L-12_H-768_A-12.zip 
 mv uncased_L-12_H-768_A-12  chinese_L-12_H-768_A-12
 ```
-In terminal, excute
+
 ```shell
 export BERT_BASE_DIR=./chinese_L-12_H-768_A-12
 export MY_DATASET=./data
 ```
-then,
+
 ```shell
 python ./run_classifier_multi.py \
   --task_name=kerry \

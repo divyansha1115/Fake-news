@@ -1,10 +1,14 @@
 
 Download https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip and rename the folder to chinese_L-12_H-768_A-12 and put it inn this directory<br>
 ```shell
-cd 
+cd Fake-news-master
 mkdir tmp
 cd tmp
-mkdir 
+mkdir Ecommerce_output
+cd ../
+wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+unzip uncased_L-12_H-768_A-12.zip 
+mv uncased_L-12_H-768_A-12  chinese_L-12_H-768_A-12
 ```
 In terminal, excute
 ```shell
